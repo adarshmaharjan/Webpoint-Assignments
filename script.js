@@ -17,7 +17,7 @@ const assignmentData = [
     title: 'Signup Form',
     source:
       'https://github.com/adarshmaharjan/Webpoint-Assignments/tree/gh-pages/assignments/html_css/signup_form',
-    liveDemo: './assignments/html_css/signup_form',
+    liveDemo: './assignments/html_css/signup_form/signup.html',
     content: {
       html: true,
       css: false,
@@ -28,7 +28,7 @@ const assignmentData = [
     title: 'Selectors in CSS',
     source:
       'https://github.com/adarshmaharjan/Webpoint-Assignments/tree/gh-pages/assignments/html_css/selectors',
-    liveDemo: './assignments/html_css/selectors/index.html',
+    liveDemo: './assignments/html_css/selectors/selector.html',
     content: {
       html: true,
       css: true,
@@ -37,9 +37,8 @@ const assignmentData = [
   },
   {
     title: 'Slicing figma design',
-    source:
-      'https://github.com/adarshmaharjan/Webpoint-Assignments/tree/gh-pages/assignments/html_css/matter_segment_slicing',
-    liveDemo: './assignments/html_css/matter_segment_slicing/index.html',
+    source: '#',
+    liveDemo: '#',
     content: {
       html: true,
       css: true,
@@ -50,7 +49,7 @@ const assignmentData = [
     title: 'Internal CSS',
     source:
       'https://github.com/adarshmaharjan/Webpoint-Assignments/tree/gh-pages/assignments/html_css/internal_css',
-    liveDemo: './assignments/html_css/internal_css/index.html',
+    liveDemo: './assignments/html_css/internal_css/inline.html',
     content: {
       html: true,
       css: true,
@@ -61,7 +60,7 @@ const assignmentData = [
     title: 'Inline CSS',
     source:
       'https://github.com/adarshmaharjan/Webpoint-Assignments/tree/gh-pages/assignments/html_css/inline_css',
-    liveDemo: './assignments/html_css/inline_css/index.html',
+    liveDemo: './assignments/html_css/inline_css/inline.html',
     content: {
       html: true,
       css: true,
@@ -72,7 +71,7 @@ const assignmentData = [
     title: 'Google Fonts',
     source:
       'https://github.com/adarshmaharjan/Webpoint-Assignments/tree/gh-pages/assignments/html_css/google_fonts',
-    liveDemo: './assignments/html_css/google_fonts/index.html',
+    liveDemo: './assignments/html_css/google_fonts/google-fonts.html',
     content: {
       html: true,
       css: true,
@@ -83,7 +82,7 @@ const assignmentData = [
     title: 'External CSS',
     source:
       'https://github.com/adarshmaharjan/Webpoint-Assignments/tree/gh-pages/assignments/html_css/external_css',
-    liveDemo: './assignments/html_css/external_css/index.html',
+    liveDemo: './assignments/html_css/external_css/external.html',
     content: {
       html: true,
       css: true,
@@ -95,7 +94,7 @@ const assignmentData = [
     source:
       'https://github.com/adarshmaharjan/Webpoint-Assignments/tree/gh-pages/assignments/html_css/css-variables_and_math-function',
     liveDemo:
-      './assignments/html_css/css-variables_and_math-function/index.html',
+      './assignments/html_css/css-variables_and_math-function/css-variable.html',
     content: {
       html: true,
       css: true,
@@ -107,7 +106,7 @@ const assignmentData = [
     source:
       'https://github.com/adarshmaharjan/Webpoint-Assignments/tree/gh-pages/assignments/html_css/css-specificity_pseudo-class_pseudo-elements',
     liveDemo:
-      './assignments/html_css/css-specificity_pseudo-class_pseudo-elements/index.html',
+      './assignments/html_css/css-specificity_pseudo-class_pseudo-elements/specificity.html',
     content: {
       html: true,
       css: true,
@@ -118,10 +117,10 @@ const assignmentData = [
     title: 'Elements that dont need Closing tags',
     source:
       'https://github.com/adarshmaharjan/Webpoint-Assignments/tree/gh-pages/assignments/html_css/closing_tags',
-    liveDemo: './assignments/html_css/closing_tags/index.html',
+    liveDemo: './assignments/html_css/closing_tags/closing.html',
     content: {
       html: true,
-      css: true,
+      css: false,
       js: false,
     },
   },
@@ -129,7 +128,7 @@ const assignmentData = [
     title: 'Button Element',
     source:
       'https://github.com/adarshmaharjan/Webpoint-Assignments/tree/gh-pages/assignments/html_css/button',
-    liveDemo: './assignments/html_css/button/index.html',
+    liveDemo: './assignments/html_css/button/button.html',
     content: {
       html: true,
       css: true,
@@ -139,8 +138,8 @@ const assignmentData = [
   {
     title: 'Typography, List, Table, Circle',
     source:
-      'https://github.com/adarshmaharjan/Webpoint-Assignments/blob/gh-pages/assignments/html_css/basic_html_css/index.html',
-    liveDemo: './assignments/html_css/basic_html_css/index.html',
+      'https://github.com/adarshmaharjan/Webpoint-Assignments/blob/gh-pages/assignments/html_css/basic_html_css',
+    liveDemo: './assignments/html_css/basic_html_css/basic-html-css.html',
     content: {
       html: true,
       css: true,
@@ -221,7 +220,7 @@ const assignmentData = [
     title: 'Calculator',
     source:
       'https://github.com/adarshmaharjan/js-basic-assignment/tree/main/assignment-1',
-    liveDemo: './assignments/js-basic-assignment/assignment-1/index.html',
+    liveDemo: './assignments/js-basic-assignment/assignment-1/calculator.html',
     content: {
       html: true,
       css: true,
