@@ -1,0 +1,47 @@
+:root {
+    --full-width: 100%;
+    --half-width: 50%;
+    --primary-color: rgb(31, 25, 25);
+    --primary-font-size: 20px;
+    --primary-background-color: rgb(31, 130, 175);
+}
+/* default desktop */
+.assignment-1 div {
+    width: var(--full-width);
+    background-color: var(--primary-background-color);
+    height: 500px;
+}
+.assignment-2 p {
+    color: var(--primary-color);
+    font-size: var(--primary-font-size);
+    background-color: var(--primary-background-color);
+    width: 300px;
+    height: 250px;
+    padding: 10px 12px;
+}
+.assignment-4-test {
+    background-color: var(--primary-background-color);
+    height: 500px;
+}
+/* desktop */
+@media (max-width: 1199px) {
+}
+/* laptop
+@media (max-width: 991px) {
+   
+} */
+
+/* tablet */
+@media (max-width: 767px) {
+    .assignment-4-test {
+        width: max(70%, 400px);
+    }
+}
+/* mobile */
+@media (max-width: 575px) {
+    .assignment-1 div {
+        width: var(--half-width);
+    }
+}
+@media (min-width: 1200px) {
+}

@@ -1,0 +1,207 @@
+:root {
+    --primary-color: #303030;
+    --primary-font: CircularXX;
+    --hover-color: rgb(223, 165, 58);
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+html {
+    font-size: 16px;
+}
+body {
+    color: var(--primary-color);
+    font-family: var(--primary-font);
+    font-style: normal;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+h2,
+h3 {
+    font-weight: 700;
+}
+
+.responsive-img {
+    display: inline-block;
+    max-width: 100%;
+}
+.container {
+    max-width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+.container-fluid {
+    width: 100%;
+}
+.divider-bold {
+    height: 3px;
+    background-color: var(--primary-color);
+}
+.divider-light {
+    height: 1px;
+    background-color: #000;
+}
+.article-divider {
+    margin-top: 80px;
+}
+/* defined css */
+
+/* header */
+header {
+    margin-top: 39px;
+    overflow: hidden;
+}
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo {
+    width: 214.91px;
+    max-width: 100%;
+}
+#navigation {
+    display: flex;
+    align-items: center;
+}
+.nav-list {
+    list-style-type: none;
+}
+.nav-list li {
+    display: inline-block;
+    margin-right: 54px;
+    /* vertical-align: middle; */
+}
+.nav-list li:last-of-type {
+    margin-right: 49px;
+}
+.nav-list li a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 24px;
+    font-family: var(--primary-font);
+    transition: all 0.3s ease-in-out;
+    line-height: 16px;
+}
+.nav-list li a:hover,
+.nav-list li a:active {
+    color: var(--hover-color);
+    cursor: pointer;
+}
+.nav-icons a {
+    display: inline-block;
+    margin-right: 35px;
+    line-height: 16px;
+    transition: all 0.3s ease-in-out;
+    /* vertical-align: middle; */
+}
+.nav-icons a:last-of-type {
+    margin-right: 0;
+}
+.nav-icons a:hover,
+.nav-icons a:active {
+    cursor: pointer;
+}
+.nav-icons a img {
+    max-width: 100%;
+}
+#header-divider {
+    margin-top: 32px;
+}
+header .container h4 {
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 16px;
+}
+/* flooring */
+main {
+    margin-top: 18px;
+    margin-bottom: 50px;
+}
+.section-contents {
+    margin-top: 50px;
+}
+.section-contents:first-of-type {
+    margin-top: 0;
+}
+.section-contents h2 {
+    font-size: 48px;
+}
+.section-contents .article-contents {
+    display: flex;
+    margin-top: 50px;
+    gap: 42px;
+}
+.section-contents .article-contents article {
+    width: 416px;
+    max-width: 100%;
+}
+.section-contents .article-contents article h3 {
+    margin-top: 30px;
+    font-size: 36px;
+    line-height: 16px;
+}
+.section-contents .article-contents article p {
+    margin-top: 30px;
+    font-size: 24px;
+    line-height: 28.8px;
+}
+#main-divider {
+    margin-top: 111px;
+}
+/* footer */
+footer {
+    margin-bottom: 47px;
+    overflow: hidden;
+}
+.footer-contents {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-contents ul {
+    list-style-type: none;
+}
+
+.footer-contents ul li a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 24px;
+    line-height: 28.8px;
+    transition: all 0.3s ease-in-out;
+}
+.footer-contents ul li a:hover,
+.footer-contents ul li a:active {
+    color: var(--hover-color);
+    cursor: pointer;
+}
+@media (max-width: 1199px) {
+    .container {
+        width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+@media (min-width: 1440px) {
+    .container {
+        width: 1340px;
+        padding-left: 54px;
+        padding-right: 46px;
+    }
+}

@@ -1,0 +1,55 @@
+/* Simple Selectors*/
+
+/*Universal*/
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+/* element*/
+html {
+  font-size: 10px;
+}
+body {
+  font-size: 1.6rem;
+}
+
+/*class */
+.about {
+  background-color: wheat;
+  width: 50%;
+}
+.btn {
+  background-color: rgb(201, 64, 64);
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 16px;
+  transition: all 0.3s ease-in-out;
+}
+/*id */
+#info {
+  padding: 16px;
+}
+
+/*Combinator-selector*/
+.about h1,
+.about p {
+  text-transform: capitalize;
+}
+/*pseudo-class selectors*/
+.btn:hover,
+.btn:active {
+  background-color: rgb(65, 8, 8);
+  cursor: pointer;
+}
+/*pseudo-element selector*/
+.about p::first-line {
+  color: blueviolet;
+}
+/*attribute selector*/
+a[target] {
+  text-decoration: none;
+  font-weight: 700;
+}
