@@ -148,27 +148,117 @@ const assignmentData = [
     },
   },
   {
-    title: 'OOP and SOLID principles',
-    source:
-      'https://github.com/adarshmaharjan/Webpoint-Assignments/tree/gh-pages/assignments/html_css/css-specificity_pseudo-class_pseudo-elements',
-    liveDemo:
-      './assignments/html_css/css-specificity_pseudo-class_pseudo-elements/index.html',
+    title: 'SOLID principles blog',
+    source: 'https://github.com/adarshmaharjan/solid_principale',
+    liveDemo: 'https://github.com/adarshmaharjan/solid_principale',
     content: {
-      html: true,
-      css: true,
-      js: false,
+      html: false,
+      css: false,
+      js: true,
     },
   },
   {
-    title: 'CSS specificity, Pseudo class and Pseudo element',
-    source:
-      'https://github.com/adarshmaharjan/Webpoint-Assignments/tree/gh-pages/assignments/html_css/css-specificity_pseudo-class_pseudo-elements',
-    liveDemo:
-      './assignments/html_css/css-specificity_pseudo-class_pseudo-elements/index.html',
+    title: 'OOP blog',
+    source: 'https://github.com/adarshmaharjan/oop',
+    liveDemo: 'https://github.com/adarshmaharjan/oop',
+    content: {
+      html: false,
+      css: false,
+      js: true,
+    },
+  },
+  {
+    title: 'Bouncing Box(Collison Detection)',
+    source: 'https://github.com/adarshmaharjan/bouncingBox',
+    liveDemo: 'https://adarshmaharjan.github.io/bouncingBox/',
     content: {
       html: true,
       css: true,
-      js: false,
+      js: true,
+    },
+  },
+  {
+    title: 'Simple Slider',
+    source: 'https://github.com/adarshmaharjan/simple_slider',
+    liveDemo: 'https://adarshmaharjan.github.io/simple_slider/',
+    content: {
+      html: true,
+      css: true,
+      js: true,
+    },
+  },
+  {
+    title: 'Car game(Collison Detection)',
+    source: 'https://github.com/adarshmaharjan/car_game/tree/gh-pages',
+    liveDemo: 'https://adarshmaharjan.github.io/car_game/',
+    content: {
+      html: true,
+      css: true,
+      js: true,
+    },
+  },
+  {
+    title: 'Slider with sliding animation',
+    source: 'https://github.com/adarshmaharjan/sliding_slider',
+    liveDemo: 'https://adarshmaharjan.github.io/sliding_slider/',
+    content: {
+      html: true,
+      css: true,
+      js: true,
+    },
+  },
+  {
+    title: 'Memory Game',
+    source: '#',
+    liveDemo: '#',
+    content: {
+      html: true,
+      css: true,
+      js: true,
+    },
+  },
+  {
+    title: 'Calculator',
+    source:
+      'https://github.com/adarshmaharjan/js-basic-assignment/tree/main/assignment-1',
+    liveDemo: './assignments/js-basic-assignment/assignment-1/index.html',
+    content: {
+      html: true,
+      css: true,
+      js: true,
+    },
+  },
+  {
+    title: 'Area finder',
+    source:
+      'https://github.com/adarshmaharjan/js-basic-assignment/blob/main/assignment-2.html',
+    liveDemo: './assignments/js-basic-assignment/assignment-2.html',
+    content: {
+      html: true,
+      css: true,
+      js: true,
+    },
+  },
+  {
+    title: 'temperature Converter',
+    source:
+      'https://github.com/adarshmaharjan/js-basic-assignment/blob/main/assignment-3.html',
+    liveDemo: './assignments/js-basic-assignment/assignment-3.html',
+    content: {
+      html: true,
+      css: true,
+      js: true,
+    },
+  },
+  {
+    title: 'Leap year finder',
+    source:
+      'https://github.com/adarshmaharjan/js-basic-assignment/blob/main/assignment-4.html',
+    liveDemo: './assignments/js-basic-assignment/assignment-4.html',
+    content: {
+      html: true,
+      css: true,
+      js: true,
     },
   },
 ]
@@ -184,9 +274,9 @@ const getAssignmentContent = () => {
     let jstTopic = ''
     let topic = ''
 
-    if (html) htmlTopic = 'HTML'
-    if (css) cssTopic = 'CSS'
-    if (js) jstTopic = 'JS'
+    if (html) htmlTopic = '<i class="fab fa-html5"></i>'
+    if (css) cssTopic = '<i class="fab fa-css3"></i>'
+    if (js) jstTopic = '<i class="fab fa-js"></i>'
 
     topic = `${htmlTopic} ${cssTopic} ${jstTopic}`
 

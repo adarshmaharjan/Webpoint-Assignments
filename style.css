@@ -31,6 +31,7 @@ body {
 a {
   color: var(--primary-font-color);
   text-decoration: none;
+  cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
 a:hover,
@@ -49,10 +50,13 @@ h1 {
   color: #fff;
   vertical-align: middle;
 }
-#logo {
+#logo-link {
+  display: inline-block;
   float: right;
-  width: 180px;
   vertical-align: middle;
+}
+#logo {
+  width: 180px;
 }
 #introduction {
   padding: 16px 0;
