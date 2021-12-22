@@ -220,7 +220,7 @@ const assignmentData = [
     title: 'Calculator',
     source:
       'https://github.com/adarshmaharjan/js-basic-assignment/tree/main/assignment-1',
-    liveDemo: './assignments/js-basic-assignment/assignment-1/calculator.html',
+    liveDemo: '#',
     content: {
       html: true,
       css: true,
@@ -231,7 +231,7 @@ const assignmentData = [
     title: 'Area finder',
     source:
       'https://github.com/adarshmaharjan/js-basic-assignment/blob/main/assignment-2.html',
-    liveDemo: './assignments/js-basic-assignment/assignment-2.html',
+    liveDemo: '#',
     content: {
       html: true,
       css: true,
@@ -242,7 +242,8 @@ const assignmentData = [
     title: 'temperature Converter',
     source:
       'https://github.com/adarshmaharjan/js-basic-assignment/blob/main/assignment-3.html',
-    liveDemo: './assignments/js-basic-assignment/assignment-3.html',
+    liveDemo:
+      'https://github.com/adarshmaharjan/js-basic-assignment/blob/main/assignment-3.html',
     content: {
       html: true,
       css: true,
@@ -253,7 +254,7 @@ const assignmentData = [
     title: 'Leap year finder',
     source:
       'https://github.com/adarshmaharjan/js-basic-assignment/blob/main/assignment-4.html',
-    liveDemo: './assignments/js-basic-assignment/assignment-4.html',
+    liveDemo: '#',
     content: {
       html: true,
       css: true,
