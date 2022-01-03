@@ -37,8 +37,8 @@ const assignmentData = [
   },
   {
     title: 'Slicing figma design',
-    source: '#',
-    liveDemo: '#',
+    source: 'https://github.com/adarshmaharjan/figma_slicing',
+    liveDemo: 'https://adarshmaharjan.github.io/figma_slicing/',
     content: {
       html: true,
       css: true,
@@ -220,7 +220,7 @@ const assignmentData = [
     title: 'Calculator',
     source:
       'https://github.com/adarshmaharjan/js-basic-assignment/tree/main/assignment-1',
-    liveDemo: '#',
+    liveDemo: './assignments/js-basic-assignment/assignment-1/calculator.html',
     content: {
       html: true,
       css: true,
@@ -231,7 +231,7 @@ const assignmentData = [
     title: 'Area finder',
     source:
       'https://github.com/adarshmaharjan/js-basic-assignment/blob/main/assignment-2.html',
-    liveDemo: '#',
+    liveDemo: './assignments//js-basic-assignment/area-finder.html',
     content: {
       html: true,
       css: true,
@@ -242,8 +242,7 @@ const assignmentData = [
     title: 'temperature Converter',
     source:
       'https://github.com/adarshmaharjan/js-basic-assignment/blob/main/assignment-3.html',
-    liveDemo:
-      'https://github.com/adarshmaharjan/js-basic-assignment/blob/main/assignment-3.html',
+    liveDemo: './assignments/js-basic-assignment/temperature-converter.html',
     content: {
       html: true,
       css: true,
@@ -254,7 +253,7 @@ const assignmentData = [
     title: 'Leap year finder',
     source:
       'https://github.com/adarshmaharjan/js-basic-assignment/blob/main/assignment-4.html',
-    liveDemo: '#',
+    liveDemo: './assignments/js-basic-assignment/leap-year-finder.html',
     content: {
       html: true,
       css: true,
@@ -285,7 +284,7 @@ const getAssignmentContent = () => {
         <td>${title}</td>
         <td>
           <a href=${source} target="_blank" rel="noopener noreferrer">
-          Hosted of github
+          Hosted on github
           </a>
         </td>
         <td>
@@ -297,6 +296,7 @@ const getAssignmentContent = () => {
     </tr>
     `
   })
+
   return assignmentContent
 }
 // console.log(getAssignmentContent())
