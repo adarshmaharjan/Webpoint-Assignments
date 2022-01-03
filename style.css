@@ -51,7 +51,7 @@ h1 {
   vertical-align: middle;
 }
 #logo-link {
-  display: inline-block;
+  /* display: inline-block; */
   float: right;
   vertical-align: middle;
 }
@@ -103,4 +103,10 @@ footer {
 footer h6 {
   text-align: center;
   color: grey;
+}
+@media screen and (max-width: 719px) {
+  #logo-link {
+    float: left;
+    margin-top: 16px;
+  }
 }
