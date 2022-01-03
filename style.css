@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-background-color: #34678d;
+  --primary-font-family: 'Roboto', sans-serif;
+  --primary-font-color: #fff;
+  --secondary-font-color: #000;
+}
+html {
+  font-size: 10px;
+}
+body {
+  background-color: var(--primary-background-color);
+  font-size: 1.6rem;
+  font-family: var(--primary-font-family);
+  color: var(--primary-font-color);
+}
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.responsive-image {
+  display: inline-block;
+  max-width: 100%;
+}
+a {
+  color: var(--primary-font-color);
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+a:hover,
+a:active {
+  color: rgb(240, 157, 2);
+  cursor: pointer;
+}
+/* Defined CSS */
+
+header {
+  padding: 16px 0;
+}
+h1 {
+  float: left;
+  font-size: 36px;
+  color: #fff;
+  vertical-align: middle;
+}
+#logo-link {
+  /* display: inline-block; */
+  float: right;
+  vertical-align: middle;
+}
+#logo {
+  width: 180px;
+}
+#introduction {
+  padding: 16px 0;
+}
+#introduction h4 {
+  font-weight: 500;
+  line-height: 1.5;
+}
+#assignments {
+  padding: 16px 0;
+}
+
+#assignments table {
+  text-align: left;
+  border-collapse: collapse;
+  padding: 16px 0;
+  width: 100%;
+}
+
+#assignments td,
+#assignments th {
+  text-align: left;
+  padding: 8px;
+}
+
+#assignments tr:nth-of-type(2n) {
+  background-color: #cccccb;
+  color: #000;
+}
+#assignments tr:nth-of-type(2n) a {
+  background-color: #cccccb;
+  color: #000;
+  transition: all 0.3s ease-in-out;
+}
+#assignments tr:nth-of-type(2n) a:hover {
+  color: rgb(240, 157, 2);
+  cursor: pointer;
+}
+footer {
+  margin-top: 32px;
+  padding: 16px 0;
+  background-color: #cccccb;
+}
+footer h6 {
+  text-align: center;
+  color: grey;
+}

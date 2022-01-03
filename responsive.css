@@ -1,0 +1,22 @@
+.container {
+  max-width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1199px) {
+  .container {
+    width: 992px;
+  }
+}
+@media screen and (max-width: 719px) {
+  #logo-link {
+    float: left;
+    margin-top: 16px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}

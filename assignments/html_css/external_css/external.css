@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.about {
+  width: 50%;
+  padding: 30px;
+  background-color: antiquewhite;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+.about p {
+  line-height: 1.15;
+  text-align: justify;
+  font-weight: 300;
+  font-style: italic;
+  color: #635151;
+  text-indent: 5%;
+  margin:15px 0 0 0;
+}

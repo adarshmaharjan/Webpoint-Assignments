@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+#test-id p {
+    width: 500px;
+    color: brown;
+}
+.test-class p {
+    color: red;
+}
+#not-selector ul li:not(#not-test) {
+    color: blue;
+}
+#important-rule p {
+    width: 400px;
+    color: red !important;
+}
+#important-rule p {
+    color: blue;
+}
