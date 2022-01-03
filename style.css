@@ -104,9 +104,3 @@ footer h6 {
   text-align: center;
   color: grey;
 }
-@media screen and (max-width: 719px) {
-  #logo-link {
-    float: left;
-    margin-top: 16px;
-  }
-}

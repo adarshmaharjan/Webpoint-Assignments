@@ -260,6 +260,16 @@ const assignmentData = [
       js: true,
     },
   },
+  {
+    title: 'CSS Position assignments',
+    source: '#',
+    liveDemo: './assignments/html_css/position/position.html',
+    content: {
+      html: true,
+      css: true,
+      js: true,
+    },
+  },
 ]
 
 // functions
